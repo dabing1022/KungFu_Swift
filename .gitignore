@@ -1,0 +1,17 @@
+# Ignore files build by xcode
+*.mode*v*
+*.pbxuser
+*.xcbkptlist
+#*.xcworkspacedata
+*.xcuserstate
+*.xccheckout
+xcschememanagement.plist
+.DS_Store
+CityOfHeart/.DS_Store
+._.*
+xcuserdata/
+DerivedData/
+
+# Ignore vim swaps
+*.swp
+*.swo

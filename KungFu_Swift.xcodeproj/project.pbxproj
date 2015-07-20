@@ -7,6 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		89C27F351B5C84F7002733C0 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 89C27F341B5C84F7002733C0 /* Default-568h@2x.png */; };
+		89C27F371B5C8766002733C0 /* SplashLogo.png in Resources */ = {isa = PBXBuildFile; fileRef = 89C27F361B5C8766002733C0 /* SplashLogo.png */; };
+		89C27F391B5C88CC002733C0 /* DemoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89C27F381B5C88CC002733C0 /* DemoViewController.swift */; };
+		89C27F3B1B5C8A24002733C0 /* DemoConst.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89C27F3A1B5C8A24002733C0 /* DemoConst.swift */; };
 		89EB31EE1B5A568500854BCC /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89EB31ED1B5A568500854BCC /* AppDelegate.swift */; };
 		89EB31F01B5A568500854BCC /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89EB31EF1B5A568500854BCC /* ViewController.swift */; };
 		89EB31F31B5A568500854BCC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 89EB31F11B5A568500854BCC /* Main.storyboard */; };
@@ -34,6 +38,10 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		89C27F341B5C84F7002733C0 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		89C27F361B5C8766002733C0 /* SplashLogo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = SplashLogo.png; sourceTree = "<group>"; };
+		89C27F381B5C88CC002733C0 /* DemoViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DemoViewController.swift; sourceTree = "<group>"; };
+		89C27F3A1B5C8A24002733C0 /* DemoConst.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DemoConst.swift; sourceTree = "<group>"; };
 		89EB31EA1B5A568500854BCC /* KungFu_Swift.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = KungFu_Swift.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		89EB31ED1B5A568500854BCC /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		89EB31EF1B5A568500854BCC /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -74,6 +82,15 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		89C27F331B5C84D6002733C0 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				89C27F361B5C8766002733C0 /* SplashLogo.png */,
+				89C27F341B5C84F7002733C0 /* Default-568h@2x.png */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
 		89EB31E11B5A568400854BCC = {
 			isa = PBXGroup;
 			children = (
@@ -99,10 +116,13 @@
 			children = (
 				89EB31ED1B5A568500854BCC /* AppDelegate.swift */,
 				89EB31EF1B5A568500854BCC /* ViewController.swift */,
-				89EB31F11B5A568500854BCC /* Main.storyboard */,
+				89C27F381B5C88CC002733C0 /* DemoViewController.swift */,
+				89C27F3A1B5C8A24002733C0 /* DemoConst.swift */,
 				89EB31F41B5A568500854BCC /* Assets.xcassets */,
+				89EB31F11B5A568500854BCC /* Main.storyboard */,
 				89EB31F61B5A568500854BCC /* LaunchScreen.storyboard */,
 				89EB31F91B5A568500854BCC /* Info.plist */,
+				89C27F331B5C84D6002733C0 /* Resources */,
 			);
 			path = KungFu_Swift;
 			sourceTree = "<group>";
@@ -229,6 +249,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				89EB31F81B5A568500854BCC /* LaunchScreen.storyboard in Resources */,
+				89C27F371B5C8766002733C0 /* SplashLogo.png in Resources */,
+				89C27F351B5C84F7002733C0 /* Default-568h@2x.png in Resources */,
 				89EB31F51B5A568500854BCC /* Assets.xcassets in Resources */,
 				89EB31F31B5A568500854BCC /* Main.storyboard in Resources */,
 			);
@@ -255,7 +277,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				89C27F391B5C88CC002733C0 /* DemoViewController.swift in Sources */,
 				89EB31F01B5A568500854BCC /* ViewController.swift in Sources */,
+				89C27F3B1B5C8A24002733C0 /* DemoConst.swift in Sources */,
 				89EB31EE1B5A568500854BCC /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -487,6 +511,7 @@
 				89EB32141B5A568600854BCC /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		89EB32151B5A568600854BCC /* Build configuration list for PBXNativeTarget "KungFu_SwiftTests" */ = {
 			isa = XCConfigurationList;
@@ -495,6 +520,7 @@
 				89EB32171B5A568600854BCC /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		89EB32181B5A568600854BCC /* Build configuration list for PBXNativeTarget "KungFu_SwiftUITests" */ = {
 			isa = XCConfigurationList;
@@ -503,6 +529,7 @@
 				89EB321A1B5A568600854BCC /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
