@@ -11,7 +11,9 @@ import UIKit
 class ViewController: DemoViewController, UITableViewDelegate, UITableViewDataSource {
 
     var tableView: UITableView!
-    var demoViewControllers: [DemoViewController] = []
+    var demoViewControllers: [[String]] = [
+        ["UIKItDemoA", "IBDesignableDemoViewController"]
+    ]
     
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -32,8 +34,7 @@ class ViewController: DemoViewController, UITableViewDelegate, UITableViewDataSo
     // MARK: UITableViewDelegate UITableViewDataSource
     
     func numberOfSectionsInTableView(tableView: UITableView) -> Int {
-//        return demoViewControllers.count
-        return 10
+        return demoViewControllers.count
     }
     
     func tableView(tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
@@ -43,10 +44,19 @@ class ViewController: DemoViewController, UITableViewDelegate, UITableViewDataSo
     func tableView(tableView: UITableView, cellForRowAtIndexPath indexPath: NSIndexPath) -> UITableViewCell {
         let cell = tableView.dequeueReusableCellWithIdentifier("KungFu", forIndexPath: indexPath)
         cell.backgroundColor = UIColor.clearColor()
-        cell.textLabel?.text = "demo"
         cell.selectionStyle = .None
+        let className = demoViewControllers[indexPath.row][1]
+        cell.textLabel?.text = className
         
         return cell
+    }
+    
+    func tableView(tableView: UITableView, didSelectRowAtIndexPath indexPath: NSIndexPath) {
+        let storyboardName = demoViewControllers[indexPath.row][0]
+        let className = demoViewControllers[indexPath.row][1]
+        
+        let vc = UIStoryboard(name: storyboardName, bundle: NSBundle.mainBundle()).instantiateViewControllerWithIdentifier(className)
+        self.navigationController?.pushViewController(vc, animated: true)
     }
 
 }

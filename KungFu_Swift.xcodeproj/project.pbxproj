@@ -11,6 +11,9 @@
 		89C27F371B5C8766002733C0 /* SplashLogo.png in Resources */ = {isa = PBXBuildFile; fileRef = 89C27F361B5C8766002733C0 /* SplashLogo.png */; };
 		89C27F391B5C88CC002733C0 /* DemoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89C27F381B5C88CC002733C0 /* DemoViewController.swift */; };
 		89C27F3B1B5C8A24002733C0 /* DemoConst.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89C27F3A1B5C8A24002733C0 /* DemoConst.swift */; };
+		89D616851B7C9AC600EC4AD7 /* IBDesignableDemoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89D616841B7C9AC600EC4AD7 /* IBDesignableDemoViewController.swift */; };
+		89D616871B7C9B3100EC4AD7 /* UIKItDemoA.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 89D616861B7C9B3100EC4AD7 /* UIKItDemoA.storyboard */; };
+		89D6168A1B7C9D3800EC4AD7 /* UIView+IBInspectable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89D616891B7C9D3800EC4AD7 /* UIView+IBInspectable.swift */; };
 		89EB31EE1B5A568500854BCC /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89EB31ED1B5A568500854BCC /* AppDelegate.swift */; };
 		89EB31F01B5A568500854BCC /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89EB31EF1B5A568500854BCC /* ViewController.swift */; };
 		89EB31F31B5A568500854BCC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 89EB31F11B5A568500854BCC /* Main.storyboard */; };
@@ -42,6 +45,9 @@
 		89C27F361B5C8766002733C0 /* SplashLogo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = SplashLogo.png; sourceTree = "<group>"; };
 		89C27F381B5C88CC002733C0 /* DemoViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DemoViewController.swift; sourceTree = "<group>"; };
 		89C27F3A1B5C8A24002733C0 /* DemoConst.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DemoConst.swift; sourceTree = "<group>"; };
+		89D616841B7C9AC600EC4AD7 /* IBDesignableDemoViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = IBDesignableDemoViewController.swift; sourceTree = "<group>"; };
+		89D616861B7C9B3100EC4AD7 /* UIKItDemoA.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = UIKItDemoA.storyboard; sourceTree = "<group>"; };
+		89D616891B7C9D3800EC4AD7 /* UIView+IBInspectable.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIView+IBInspectable.swift"; sourceTree = "<group>"; };
 		89EB31EA1B5A568500854BCC /* KungFu_Swift.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = KungFu_Swift.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		89EB31ED1B5A568500854BCC /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		89EB31EF1B5A568500854BCC /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -91,6 +97,23 @@
 			name = Resources;
 			sourceTree = "<group>";
 		};
+		89D616831B7C9A9500EC4AD7 /* UIKit */ = {
+			isa = PBXGroup;
+			children = (
+				89D616841B7C9AC600EC4AD7 /* IBDesignableDemoViewController.swift */,
+				89D616861B7C9B3100EC4AD7 /* UIKItDemoA.storyboard */,
+			);
+			path = UIKit;
+			sourceTree = "<group>";
+		};
+		89D616881B7C9D0E00EC4AD7 /* ShoeboxKit */ = {
+			isa = PBXGroup;
+			children = (
+				89D616891B7C9D3800EC4AD7 /* UIView+IBInspectable.swift */,
+			);
+			path = ShoeboxKit;
+			sourceTree = "<group>";
+		};
 		89EB31E11B5A568400854BCC = {
 			isa = PBXGroup;
 			children = (
@@ -122,6 +145,8 @@
 				89EB31F11B5A568500854BCC /* Main.storyboard */,
 				89EB31F61B5A568500854BCC /* LaunchScreen.storyboard */,
 				89EB31F91B5A568500854BCC /* Info.plist */,
+				89D616881B7C9D0E00EC4AD7 /* ShoeboxKit */,
+				89D616831B7C9A9500EC4AD7 /* UIKit */,
 				89C27F331B5C84D6002733C0 /* Resources */,
 			);
 			path = KungFu_Swift;
@@ -250,6 +275,7 @@
 			files = (
 				89EB31F81B5A568500854BCC /* LaunchScreen.storyboard in Resources */,
 				89C27F371B5C8766002733C0 /* SplashLogo.png in Resources */,
+				89D616871B7C9B3100EC4AD7 /* UIKItDemoA.storyboard in Resources */,
 				89C27F351B5C84F7002733C0 /* Default-568h@2x.png in Resources */,
 				89EB31F51B5A568500854BCC /* Assets.xcassets in Resources */,
 				89EB31F31B5A568500854BCC /* Main.storyboard in Resources */,
@@ -277,6 +303,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				89D6168A1B7C9D3800EC4AD7 /* UIView+IBInspectable.swift in Sources */,
+				89D616851B7C9AC600EC4AD7 /* IBDesignableDemoViewController.swift in Sources */,
 				89C27F391B5C88CC002733C0 /* DemoViewController.swift in Sources */,
 				89EB31F01B5A568500854BCC /* ViewController.swift in Sources */,
 				89C27F3B1B5C8A24002733C0 /* DemoConst.swift in Sources */,
