@@ -12,7 +12,8 @@ class ViewController: DemoViewController, UITableViewDelegate, UITableViewDataSo
 
     var tableView: UITableView!
     var demoViewControllers: [[String]] = [
-        ["UIKItDemoA", "IBDesignableDemoViewController"]
+        ["UIKItDemoA", "IBDesignableDemoViewController"],
+        ["CFDemoA", "BridgeOcController"]
     ]
     
     override func viewDidLoad() {
@@ -26,19 +27,14 @@ class ViewController: DemoViewController, UITableViewDelegate, UITableViewDataSo
         tableView.registerClass(UITableViewCell.self, forCellReuseIdentifier: "KungFu")
     }
 
-    override func didReceiveMemoryWarning() {
-        super.didReceiveMemoryWarning()
-        // Dispose of any resources that can be recreated.
-    }
-
     // MARK: UITableViewDelegate UITableViewDataSource
     
     func numberOfSectionsInTableView(tableView: UITableView) -> Int {
-        return demoViewControllers.count
+        return 1
     }
     
     func tableView(tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
-        return 1
+        return demoViewControllers.count
     }
     
     func tableView(tableView: UITableView, cellForRowAtIndexPath indexPath: NSIndexPath) -> UITableViewCell {
@@ -56,6 +52,7 @@ class ViewController: DemoViewController, UITableViewDelegate, UITableViewDataSo
         let className = demoViewControllers[indexPath.row][1]
         
         let vc = UIStoryboard(name: storyboardName, bundle: NSBundle.mainBundle()).instantiateViewControllerWithIdentifier(className)
+        vc.title = className
         self.navigationController?.pushViewController(vc, animated: true)
     }
 

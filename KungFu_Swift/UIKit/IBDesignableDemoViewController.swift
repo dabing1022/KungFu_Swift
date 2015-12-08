@@ -72,7 +72,7 @@ class ClockFaceView : UIView {
     
     private func refreshTime() {
         if let realTime = time {
-            if let calendar = NSCalendar(calendarIdentifier: NSGregorianCalendar) {
+            if let calendar = NSCalendar(calendarIdentifier: NSCalendarIdentifierGregorian) {
                 let components = calendar.components(NSCalendarUnit.Hour.union(NSCalendarUnit.Minute), fromDate: realTime)
                 clockFace.refreshToHour(components.hour, minute: components.minute)
             }
@@ -100,4 +100,9 @@ class IBDesignableDemoViewController: DemoViewController {
         
         clockFaceView.time = NSDate()
     }
+    
+    func local(closure: ()->()) {
+        closure()
+    }
+
 }

@@ -7,13 +7,19 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		897074F71C172063005A4A33 /* Bool.swift in Sources */ = {isa = PBXBuildFile; fileRef = 897074F61C172063005A4A33 /* Bool.swift */; };
+		89A4FA2F1C1727C700DFC1CE /* CFDemoA.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 89A4FA2E1C1727C700DFC1CE /* CFDemoA.storyboard */; };
+		89A4FA311C1727E500DFC1CE /* BridgeOcController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89A4FA301C1727E500DFC1CE /* BridgeOcController.swift */; };
+		89A4FA351C17280E00DFC1CE /* MyOcClass.m in Sources */ = {isa = PBXBuildFile; fileRef = 89A4FA341C17280E00DFC1CE /* MyOcClass.m */; };
 		89C27F351B5C84F7002733C0 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 89C27F341B5C84F7002733C0 /* Default-568h@2x.png */; };
 		89C27F371B5C8766002733C0 /* SplashLogo.png in Resources */ = {isa = PBXBuildFile; fileRef = 89C27F361B5C8766002733C0 /* SplashLogo.png */; };
 		89C27F391B5C88CC002733C0 /* DemoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89C27F381B5C88CC002733C0 /* DemoViewController.swift */; };
 		89C27F3B1B5C8A24002733C0 /* DemoConst.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89C27F3A1B5C8A24002733C0 /* DemoConst.swift */; };
 		89D616851B7C9AC600EC4AD7 /* IBDesignableDemoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89D616841B7C9AC600EC4AD7 /* IBDesignableDemoViewController.swift */; };
 		89D616871B7C9B3100EC4AD7 /* UIKItDemoA.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 89D616861B7C9B3100EC4AD7 /* UIKItDemoA.storyboard */; };
-		89D6168A1B7C9D3800EC4AD7 /* UIView+IBInspectable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89D616891B7C9D3800EC4AD7 /* UIView+IBInspectable.swift */; };
+		89D6168E1B7DC92C00EC4AD7 /* UIView+IBInspectable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89D6168D1B7DC92C00EC4AD7 /* UIView+IBInspectable.swift */; };
+		89D616901B7DC99200EC4AD7 /* Int.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89D6168F1B7DC99200EC4AD7 /* Int.swift */; };
+		89D616921B7DCB1900EC4AD7 /* Double.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89D616911B7DCB1900EC4AD7 /* Double.swift */; };
 		89EB31EE1B5A568500854BCC /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89EB31ED1B5A568500854BCC /* AppDelegate.swift */; };
 		89EB31F01B5A568500854BCC /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89EB31EF1B5A568500854BCC /* ViewController.swift */; };
 		89EB31F31B5A568500854BCC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 89EB31F11B5A568500854BCC /* Main.storyboard */; };
@@ -41,13 +47,21 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		897074F61C172063005A4A33 /* Bool.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Bool.swift; sourceTree = "<group>"; };
+		89A4FA2E1C1727C700DFC1CE /* CFDemoA.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = CFDemoA.storyboard; sourceTree = "<group>"; };
+		89A4FA301C1727E500DFC1CE /* BridgeOcController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BridgeOcController.swift; sourceTree = "<group>"; };
+		89A4FA321C17280E00DFC1CE /* KungFu_Swift-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "KungFu_Swift-Bridging-Header.h"; sourceTree = "<group>"; };
+		89A4FA331C17280E00DFC1CE /* MyOcClass.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MyOcClass.h; sourceTree = "<group>"; };
+		89A4FA341C17280E00DFC1CE /* MyOcClass.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MyOcClass.m; sourceTree = "<group>"; };
 		89C27F341B5C84F7002733C0 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
 		89C27F361B5C8766002733C0 /* SplashLogo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = SplashLogo.png; sourceTree = "<group>"; };
 		89C27F381B5C88CC002733C0 /* DemoViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DemoViewController.swift; sourceTree = "<group>"; };
 		89C27F3A1B5C8A24002733C0 /* DemoConst.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DemoConst.swift; sourceTree = "<group>"; };
 		89D616841B7C9AC600EC4AD7 /* IBDesignableDemoViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = IBDesignableDemoViewController.swift; sourceTree = "<group>"; };
 		89D616861B7C9B3100EC4AD7 /* UIKItDemoA.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = UIKItDemoA.storyboard; sourceTree = "<group>"; };
-		89D616891B7C9D3800EC4AD7 /* UIView+IBInspectable.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIView+IBInspectable.swift"; sourceTree = "<group>"; };
+		89D6168D1B7DC92C00EC4AD7 /* UIView+IBInspectable.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIView+IBInspectable.swift"; sourceTree = "<group>"; };
+		89D6168F1B7DC99200EC4AD7 /* Int.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Int.swift; sourceTree = "<group>"; };
+		89D616911B7DCB1900EC4AD7 /* Double.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Double.swift; sourceTree = "<group>"; };
 		89EB31EA1B5A568500854BCC /* KungFu_Swift.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = KungFu_Swift.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		89EB31ED1B5A568500854BCC /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		89EB31EF1B5A568500854BCC /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -88,6 +102,18 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		89A4FA2D1C17278100DFC1CE /* CoreFoundation */ = {
+			isa = PBXGroup;
+			children = (
+				89A4FA2E1C1727C700DFC1CE /* CFDemoA.storyboard */,
+				89A4FA301C1727E500DFC1CE /* BridgeOcController.swift */,
+				89A4FA331C17280E00DFC1CE /* MyOcClass.h */,
+				89A4FA341C17280E00DFC1CE /* MyOcClass.m */,
+				89A4FA321C17280E00DFC1CE /* KungFu_Swift-Bridging-Header.h */,
+			);
+			path = CoreFoundation;
+			sourceTree = "<group>";
+		};
 		89C27F331B5C84D6002733C0 /* Resources */ = {
 			isa = PBXGroup;
 			children = (
@@ -109,9 +135,28 @@
 		89D616881B7C9D0E00EC4AD7 /* ShoeboxKit */ = {
 			isa = PBXGroup;
 			children = (
-				89D616891B7C9D3800EC4AD7 /* UIView+IBInspectable.swift */,
+				89D6168B1B7DC92C00EC4AD7 /* Foundation */,
+				89D6168C1B7DC92C00EC4AD7 /* UIKit */,
 			);
 			path = ShoeboxKit;
+			sourceTree = "<group>";
+		};
+		89D6168B1B7DC92C00EC4AD7 /* Foundation */ = {
+			isa = PBXGroup;
+			children = (
+				89D6168F1B7DC99200EC4AD7 /* Int.swift */,
+				89D616911B7DCB1900EC4AD7 /* Double.swift */,
+				897074F61C172063005A4A33 /* Bool.swift */,
+			);
+			path = Foundation;
+			sourceTree = "<group>";
+		};
+		89D6168C1B7DC92C00EC4AD7 /* UIKit */ = {
+			isa = PBXGroup;
+			children = (
+				89D6168D1B7DC92C00EC4AD7 /* UIView+IBInspectable.swift */,
+			);
+			path = UIKit;
 			sourceTree = "<group>";
 		};
 		89EB31E11B5A568400854BCC = {
@@ -147,6 +192,7 @@
 				89EB31F91B5A568500854BCC /* Info.plist */,
 				89D616881B7C9D0E00EC4AD7 /* ShoeboxKit */,
 				89D616831B7C9A9500EC4AD7 /* UIKit */,
+				89A4FA2D1C17278100DFC1CE /* CoreFoundation */,
 				89C27F331B5C84D6002733C0 /* Resources */,
 			);
 			path = KungFu_Swift;
@@ -232,6 +278,7 @@
 		89EB31E21B5A568500854BCC /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
+				LastSwiftUpdateCheck = 0710;
 				LastUpgradeCheck = 0700;
 				ORGANIZATIONNAME = ChildhoodAndy;
 				TargetAttributes = {
@@ -279,6 +326,7 @@
 				89C27F351B5C84F7002733C0 /* Default-568h@2x.png in Resources */,
 				89EB31F51B5A568500854BCC /* Assets.xcassets in Resources */,
 				89EB31F31B5A568500854BCC /* Main.storyboard in Resources */,
+				89A4FA2F1C1727C700DFC1CE /* CFDemoA.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -303,9 +351,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				89D6168A1B7C9D3800EC4AD7 /* UIView+IBInspectable.swift in Sources */,
+				89D6168E1B7DC92C00EC4AD7 /* UIView+IBInspectable.swift in Sources */,
 				89D616851B7C9AC600EC4AD7 /* IBDesignableDemoViewController.swift in Sources */,
+				89D616921B7DCB1900EC4AD7 /* Double.swift in Sources */,
 				89C27F391B5C88CC002733C0 /* DemoViewController.swift in Sources */,
+				89A4FA311C1727E500DFC1CE /* BridgeOcController.swift in Sources */,
+				89D616901B7DC99200EC4AD7 /* Int.swift in Sources */,
+				897074F71C172063005A4A33 /* Bool.swift in Sources */,
+				89A4FA351C17280E00DFC1CE /* MyOcClass.m in Sources */,
 				89EB31F01B5A568500854BCC /* ViewController.swift in Sources */,
 				89C27F3B1B5C8A24002733C0 /* DemoConst.swift in Sources */,
 				89EB31EE1B5A568500854BCC /* AppDelegate.swift in Sources */,
@@ -451,11 +504,14 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CLANG_ENABLE_MODULES = YES;
 				INFOPLIST_FILE = KungFu_Swift/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.sketchingame.KungFu-Swift";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "KungFu_Swift/CoreFoundation/KungFu_Swift-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 			};
 			name = Debug;
 		};
@@ -464,11 +520,13 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CLANG_ENABLE_MODULES = YES;
 				INFOPLIST_FILE = KungFu_Swift/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.sketchingame.KungFu-Swift";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "KungFu_Swift/CoreFoundation/KungFu_Swift-Bridging-Header.h";
 			};
 			name = Release;
 		};
