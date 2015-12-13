@@ -13,7 +13,8 @@ class ViewController: DemoViewController, UITableViewDelegate, UITableViewDataSo
     var tableView: UITableView!
     var demoViewControllers: [[String]] = [
         ["UIKItDemoA", "IBDesignableDemoViewController"],
-        ["CFDemoA", "BridgeOcController"]
+        ["CFDemoA", "BridgeOcController"],
+        ["CFDemoA", "RealmTestController"],
     ]
     
     override func viewDidLoad() {

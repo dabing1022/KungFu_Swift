@@ -24,5 +24,23 @@
             </objects>
             <point key="canvasLocation" x="490" y="274"/>
         </scene>
+        <!--Realm Test Controller-->
+        <scene sceneID="kIK-vN-kiM">
+            <objects>
+                <viewController storyboardIdentifier="RealmTestController" id="vXR-Y6-tLS" customClass="RealmTestController" customModule="KungFu_Swift" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="tpL-cQ-lS8"/>
+                        <viewControllerLayoutGuide type="bottom" id="eGn-Sl-wHh"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="3Y6-8z-z2V">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <animations/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="vok-rh-yoV" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+        </scene>
     </scenes>
 </document>

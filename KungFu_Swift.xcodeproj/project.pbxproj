@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		897074F71C172063005A4A33 /* Bool.swift in Sources */ = {isa = PBXBuildFile; fileRef = 897074F61C172063005A4A33 /* Bool.swift */; };
+		897476761C1CF5B000D53697 /* RealmTestController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 897476751C1CF5B000D53697 /* RealmTestController.swift */; };
 		89A4FA2F1C1727C700DFC1CE /* CFDemoA.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 89A4FA2E1C1727C700DFC1CE /* CFDemoA.storyboard */; };
 		89A4FA311C1727E500DFC1CE /* BridgeOcController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89A4FA301C1727E500DFC1CE /* BridgeOcController.swift */; };
 		89A4FA351C17280E00DFC1CE /* MyOcClass.m in Sources */ = {isa = PBXBuildFile; fileRef = 89A4FA341C17280E00DFC1CE /* MyOcClass.m */; };
@@ -27,6 +28,7 @@
 		89EB31F81B5A568500854BCC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 89EB31F61B5A568500854BCC /* LaunchScreen.storyboard */; };
 		89EB32031B5A568600854BCC /* KungFu_SwiftTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89EB32021B5A568600854BCC /* KungFu_SwiftTests.swift */; };
 		89EB320E1B5A568600854BCC /* KungFu_SwiftUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89EB320D1B5A568600854BCC /* KungFu_SwiftUITests.swift */; };
+		94E3D1BBF5A2AD898FF3FE01 /* Pods_KungFu_Swift.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 71CE4DD863A1ABCE14A2F2A3 /* Pods_KungFu_Swift.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,7 +49,10 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		0F95E0831DFE27D088221EF3 /* Pods-KungFu_Swift.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-KungFu_Swift.debug.xcconfig"; path = "Pods/Target Support Files/Pods-KungFu_Swift/Pods-KungFu_Swift.debug.xcconfig"; sourceTree = "<group>"; };
+		71CE4DD863A1ABCE14A2F2A3 /* Pods_KungFu_Swift.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_KungFu_Swift.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		897074F61C172063005A4A33 /* Bool.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Bool.swift; sourceTree = "<group>"; };
+		897476751C1CF5B000D53697 /* RealmTestController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RealmTestController.swift; sourceTree = "<group>"; };
 		89A4FA2E1C1727C700DFC1CE /* CFDemoA.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = CFDemoA.storyboard; sourceTree = "<group>"; };
 		89A4FA301C1727E500DFC1CE /* BridgeOcController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BridgeOcController.swift; sourceTree = "<group>"; };
 		89A4FA321C17280E00DFC1CE /* KungFu_Swift-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "KungFu_Swift-Bridging-Header.h"; sourceTree = "<group>"; };
@@ -75,6 +80,7 @@
 		89EB32091B5A568600854BCC /* KungFu_SwiftUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = KungFu_SwiftUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		89EB320D1B5A568600854BCC /* KungFu_SwiftUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KungFu_SwiftUITests.swift; sourceTree = "<group>"; };
 		89EB320F1B5A568600854BCC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9A6A7A9AE537B8FB225FB990 /* Pods-KungFu_Swift.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-KungFu_Swift.release.xcconfig"; path = "Pods/Target Support Files/Pods-KungFu_Swift/Pods-KungFu_Swift.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -82,6 +88,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				94E3D1BBF5A2AD898FF3FE01 /* Pods_KungFu_Swift.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -102,6 +109,15 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		046A142325FDC964BE32FDA7 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				0F95E0831DFE27D088221EF3 /* Pods-KungFu_Swift.debug.xcconfig */,
+				9A6A7A9AE537B8FB225FB990 /* Pods-KungFu_Swift.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 		89A4FA2D1C17278100DFC1CE /* CoreFoundation */ = {
 			isa = PBXGroup;
 			children = (
@@ -110,6 +126,7 @@
 				89A4FA331C17280E00DFC1CE /* MyOcClass.h */,
 				89A4FA341C17280E00DFC1CE /* MyOcClass.m */,
 				89A4FA321C17280E00DFC1CE /* KungFu_Swift-Bridging-Header.h */,
+				897476751C1CF5B000D53697 /* RealmTestController.swift */,
 			);
 			path = CoreFoundation;
 			sourceTree = "<group>";
@@ -166,6 +183,8 @@
 				89EB32011B5A568600854BCC /* KungFu_SwiftTests */,
 				89EB320C1B5A568600854BCC /* KungFu_SwiftUITests */,
 				89EB31EB1B5A568500854BCC /* Products */,
+				046A142325FDC964BE32FDA7 /* Pods */,
+				D21DDF20BEB908E86C8AB22F /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -216,6 +235,14 @@
 			path = KungFu_SwiftUITests;
 			sourceTree = "<group>";
 		};
+		D21DDF20BEB908E86C8AB22F /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				71CE4DD863A1ABCE14A2F2A3 /* Pods_KungFu_Swift.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -223,9 +250,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 89EB32121B5A568600854BCC /* Build configuration list for PBXNativeTarget "KungFu_Swift" */;
 			buildPhases = (
+				40085B153BCD2C314FE5C03E /* Check Pods Manifest.lock */,
 				89EB31E61B5A568500854BCC /* Sources */,
 				89EB31E71B5A568500854BCC /* Frameworks */,
 				89EB31E81B5A568500854BCC /* Resources */,
+				940C15C8A12340E2BCBE1B8B /* Embed Pods Frameworks */,
+				3334FAF4B34A82E1BADA363E /* Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -284,6 +314,7 @@
 				TargetAttributes = {
 					89EB31E91B5A568500854BCC = {
 						CreatedOnToolsVersion = 7.0;
+						DevelopmentTeam = 6RUU9PN7NF;
 					};
 					89EB31FD1B5A568600854BCC = {
 						CreatedOnToolsVersion = 7.0;
@@ -346,12 +377,61 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		3334FAF4B34A82E1BADA363E /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-KungFu_Swift/Pods-KungFu_Swift-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		40085B153BCD2C314FE5C03E /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		940C15C8A12340E2BCBE1B8B /* Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-KungFu_Swift/Pods-KungFu_Swift-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		89EB31E61B5A568500854BCC /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				89D6168E1B7DC92C00EC4AD7 /* UIView+IBInspectable.swift in Sources */,
+				897476761C1CF5B000D53697 /* RealmTestController.swift in Sources */,
 				89D616851B7C9AC600EC4AD7 /* IBDesignableDemoViewController.swift in Sources */,
 				89D616921B7DCB1900EC4AD7 /* Double.swift in Sources */,
 				89C27F391B5C88CC002733C0 /* DemoViewController.swift in Sources */,
@@ -501,13 +581,26 @@
 		};
 		89EB32131B5A568600854BCC /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0F95E0831DFE27D088221EF3 /* Pods-KungFu_Swift.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CLANG_CXX_LIBRARY = "libstdc++";
 				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				ENABLE_BITCODE = NO;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+					"$(PROJECT_DIR)/KungFu_Swift/Frameworks",
+				);
 				INFOPLIST_FILE = KungFu_Swift/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = "com.sketchingame.KungFu-Swift";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_OBJC_BRIDGING_HEADER = "KungFu_Swift/CoreFoundation/KungFu_Swift-Bridging-Header.h";
@@ -517,13 +610,26 @@
 		};
 		89EB32141B5A568600854BCC /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9A6A7A9AE537B8FB225FB990 /* Pods-KungFu_Swift.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CLANG_CXX_LIBRARY = "libstdc++";
 				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				ENABLE_BITCODE = NO;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+					"$(PROJECT_DIR)/KungFu_Swift/Frameworks",
+				);
 				INFOPLIST_FILE = KungFu_Swift/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = "com.sketchingame.KungFu-Swift";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_OBJC_BRIDGING_HEADER = "KungFu_Swift/CoreFoundation/KungFu_Swift-Bridging-Header.h";
@@ -532,6 +638,7 @@
 		};
 		89EB32161B5A568600854BCC /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0F95E0831DFE27D088221EF3 /* Pods-KungFu_Swift.debug.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				INFOPLIST_FILE = KungFu_SwiftTests/Info.plist;
@@ -544,6 +651,7 @@
 		};
 		89EB32171B5A568600854BCC /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9A6A7A9AE537B8FB225FB990 /* Pods-KungFu_Swift.release.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				INFOPLIST_FILE = KungFu_SwiftTests/Info.plist;
@@ -556,6 +664,7 @@
 		};
 		89EB32191B5A568600854BCC /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0F95E0831DFE27D088221EF3 /* Pods-KungFu_Swift.debug.xcconfig */;
 			buildSettings = {
 				INFOPLIST_FILE = KungFu_SwiftUITests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
@@ -568,6 +677,7 @@
 		};
 		89EB321A1B5A568600854BCC /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9A6A7A9AE537B8FB225FB990 /* Pods-KungFu_Swift.release.xcconfig */;
 			buildSettings = {
 				INFOPLIST_FILE = KungFu_SwiftUITests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
