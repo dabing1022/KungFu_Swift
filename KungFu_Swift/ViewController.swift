@@ -15,6 +15,7 @@ class ViewController: DemoViewController, UITableViewDelegate, UITableViewDataSo
         ["UIKItDemoA", "IBDesignableDemoViewController"],
         ["CFDemoA", "BridgeOcController"],
         ["CFDemoA", "RealmTestController"],
+        ["Vendor", "AlamofireTestController"],
     ]
     
     override func viewDidLoad() {

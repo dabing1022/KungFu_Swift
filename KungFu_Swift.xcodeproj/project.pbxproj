@@ -29,6 +29,8 @@
 		89EB32031B5A568600854BCC /* KungFu_SwiftTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89EB32021B5A568600854BCC /* KungFu_SwiftTests.swift */; };
 		89EB320E1B5A568600854BCC /* KungFu_SwiftUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89EB320D1B5A568600854BCC /* KungFu_SwiftUITests.swift */; };
 		94E3D1BBF5A2AD898FF3FE01 /* Pods_KungFu_Swift.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 71CE4DD863A1ABCE14A2F2A3 /* Pods_KungFu_Swift.framework */; };
+		BD26E0AF1C21161100FB358D /* Vendor.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BD26E0AE1C21161100FB358D /* Vendor.storyboard */; };
+		BD26E0B11C21168900FB358D /* AlamofireTestController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD26E0B01C21168900FB358D /* AlamofireTestController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -81,6 +83,8 @@
 		89EB320D1B5A568600854BCC /* KungFu_SwiftUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KungFu_SwiftUITests.swift; sourceTree = "<group>"; };
 		89EB320F1B5A568600854BCC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		9A6A7A9AE537B8FB225FB990 /* Pods-KungFu_Swift.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-KungFu_Swift.release.xcconfig"; path = "Pods/Target Support Files/Pods-KungFu_Swift/Pods-KungFu_Swift.release.xcconfig"; sourceTree = "<group>"; };
+		BD26E0AE1C21161100FB358D /* Vendor.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Vendor.storyboard; sourceTree = "<group>"; };
+		BD26E0B01C21168900FB358D /* AlamofireTestController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AlamofireTestController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -212,6 +216,7 @@
 				89D616881B7C9D0E00EC4AD7 /* ShoeboxKit */,
 				89D616831B7C9A9500EC4AD7 /* UIKit */,
 				89A4FA2D1C17278100DFC1CE /* CoreFoundation */,
+				BD26E0AD1C2115FE00FB358D /* Vendor */,
 				89C27F331B5C84D6002733C0 /* Resources */,
 			);
 			path = KungFu_Swift;
@@ -233,6 +238,15 @@
 				89EB320F1B5A568600854BCC /* Info.plist */,
 			);
 			path = KungFu_SwiftUITests;
+			sourceTree = "<group>";
+		};
+		BD26E0AD1C2115FE00FB358D /* Vendor */ = {
+			isa = PBXGroup;
+			children = (
+				BD26E0AE1C21161100FB358D /* Vendor.storyboard */,
+				BD26E0B01C21168900FB358D /* AlamofireTestController.swift */,
+			);
+			path = Vendor;
 			sourceTree = "<group>";
 		};
 		D21DDF20BEB908E86C8AB22F /* Frameworks */ = {
@@ -357,6 +371,7 @@
 				89C27F351B5C84F7002733C0 /* Default-568h@2x.png in Resources */,
 				89EB31F51B5A568500854BCC /* Assets.xcassets in Resources */,
 				89EB31F31B5A568500854BCC /* Main.storyboard in Resources */,
+				BD26E0AF1C21161100FB358D /* Vendor.storyboard in Resources */,
 				89A4FA2F1C1727C700DFC1CE /* CFDemoA.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -434,6 +449,7 @@
 				897476761C1CF5B000D53697 /* RealmTestController.swift in Sources */,
 				89D616851B7C9AC600EC4AD7 /* IBDesignableDemoViewController.swift in Sources */,
 				89D616921B7DCB1900EC4AD7 /* Double.swift in Sources */,
+				BD26E0B11C21168900FB358D /* AlamofireTestController.swift in Sources */,
 				89C27F391B5C88CC002733C0 /* DemoViewController.swift in Sources */,
 				89A4FA311C1727E500DFC1CE /* BridgeOcController.swift in Sources */,
 				89D616901B7DC99200EC4AD7 /* Int.swift in Sources */,
@@ -535,6 +551,7 @@
 				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
+				PROVISIONING_PROFILE = "2d4abc88-0f86-45da-ac0a-07abb4b3c548";
 				SDKROOT = iphoneos;
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -573,6 +590,7 @@
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
+				PROVISIONING_PROFILE = "2d4abc88-0f86-45da-ac0a-07abb4b3c548";
 				SDKROOT = iphoneos;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VALIDATE_PRODUCT = YES;
@@ -592,7 +610,6 @@
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(PROJECT_DIR)",
-					"$(PROJECT_DIR)/KungFu_Swift/Frameworks",
 				);
 				INFOPLIST_FILE = KungFu_Swift/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
@@ -621,7 +638,6 @@
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(PROJECT_DIR)",
-					"$(PROJECT_DIR)/KungFu_Swift/Frameworks",
 				);
 				INFOPLIST_FILE = KungFu_Swift/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;

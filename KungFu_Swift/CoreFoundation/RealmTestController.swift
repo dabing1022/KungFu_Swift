@@ -13,6 +13,7 @@ import RealmSwift
 class RealmTestController: DemoViewController {
     
     override func viewDidLoad() {
+        super.viewDidLoad()
         // Create a Dog object and then set its properties
         let myDog = Dog()
         myDog.name = "rex"
