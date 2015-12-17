@@ -85,6 +85,8 @@
 		9A6A7A9AE537B8FB225FB990 /* Pods-KungFu_Swift.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-KungFu_Swift.release.xcconfig"; path = "Pods/Target Support Files/Pods-KungFu_Swift/Pods-KungFu_Swift.release.xcconfig"; sourceTree = "<group>"; };
 		BD26E0AE1C21161100FB358D /* Vendor.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Vendor.storyboard; sourceTree = "<group>"; };
 		BD26E0B01C21168900FB358D /* AlamofireTestController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AlamofireTestController.swift; sourceTree = "<group>"; };
+		BD26E0B81C22A4F200FB358D /* CoreAnimation001.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = CoreAnimation001.playground; sourceTree = "<group>"; };
+		BD4F94E31C22E5BB00312E04 /* CoreAnimation002.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = CoreAnimation002.playground; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -217,6 +219,7 @@
 				89D616831B7C9A9500EC4AD7 /* UIKit */,
 				89A4FA2D1C17278100DFC1CE /* CoreFoundation */,
 				BD26E0AD1C2115FE00FB358D /* Vendor */,
+				BD26E0B51C22A46B00FB358D /* Playgrounds */,
 				89C27F331B5C84D6002733C0 /* Resources */,
 			);
 			path = KungFu_Swift;
@@ -247,6 +250,15 @@
 				BD26E0B01C21168900FB358D /* AlamofireTestController.swift */,
 			);
 			path = Vendor;
+			sourceTree = "<group>";
+		};
+		BD26E0B51C22A46B00FB358D /* Playgrounds */ = {
+			isa = PBXGroup;
+			children = (
+				BD26E0B81C22A4F200FB358D /* CoreAnimation001.playground */,
+				BD4F94E31C22E5BB00312E04 /* CoreAnimation002.playground */,
+			);
+			path = Playgrounds;
 			sourceTree = "<group>";
 		};
 		D21DDF20BEB908E86C8AB22F /* Frameworks */ = {
