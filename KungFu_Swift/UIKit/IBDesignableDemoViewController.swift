@@ -20,6 +20,12 @@ class IBDesignableDemoView: UIView {
             layer.borderColor = borderColor?.CGColor
         }
     }
+    @IBInspectable var cornerRadius: CGFloat = 0 {
+        didSet {
+            layer.cornerRadius = cornerRadius
+            layer.masksToBounds = cornerRadius > 0
+        }
+    }
 }
 
 @IBDesignable
