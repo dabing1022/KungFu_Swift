@@ -1,6 +1,0 @@
-framework module Pods_KungFu_Swift {
-  umbrella header "Pods-KungFu_Swift-umbrella.h"
-
-  export *
-  module * { export * }
-}

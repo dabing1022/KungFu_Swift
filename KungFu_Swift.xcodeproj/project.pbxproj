@@ -31,6 +31,7 @@
 		94E3D1BBF5A2AD898FF3FE01 /* Pods_KungFu_Swift.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 71CE4DD863A1ABCE14A2F2A3 /* Pods_KungFu_Swift.framework */; };
 		BD26E0AF1C21161100FB358D /* Vendor.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BD26E0AE1C21161100FB358D /* Vendor.storyboard */; };
 		BD26E0B11C21168900FB358D /* AlamofireTestController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD26E0B01C21168900FB358D /* AlamofireTestController.swift */; };
+		BD87147D1CB3CCB40008D29C /* UIVIew+CornerRadius.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD87147C1CB3CCB40008D29C /* UIVIew+CornerRadius.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -87,6 +88,7 @@
 		BD26E0B01C21168900FB358D /* AlamofireTestController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AlamofireTestController.swift; sourceTree = "<group>"; };
 		BD26E0B81C22A4F200FB358D /* CoreAnimation001.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = CoreAnimation001.playground; sourceTree = "<group>"; };
 		BD4F94E31C22E5BB00312E04 /* CoreAnimation002.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = CoreAnimation002.playground; sourceTree = "<group>"; };
+		BD87147C1CB3CCB40008D29C /* UIVIew+CornerRadius.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIVIew+CornerRadius.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -178,6 +180,7 @@
 			isa = PBXGroup;
 			children = (
 				89D6168D1B7DC92C00EC4AD7 /* UIView+IBInspectable.swift */,
+				BD87147C1CB3CCB40008D29C /* UIVIew+CornerRadius.swift */,
 			);
 			path = UIKit;
 			sourceTree = "<group>";
@@ -466,6 +469,7 @@
 				89A4FA311C1727E500DFC1CE /* BridgeOcController.swift in Sources */,
 				89D616901B7DC99200EC4AD7 /* Int.swift in Sources */,
 				897074F71C172063005A4A33 /* Bool.swift in Sources */,
+				BD87147D1CB3CCB40008D29C /* UIVIew+CornerRadius.swift in Sources */,
 				89A4FA351C17280E00DFC1CE /* MyOcClass.m in Sources */,
 				89EB31F01B5A568500854BCC /* ViewController.swift in Sources */,
 				89C27F3B1B5C8A24002733C0 /* DemoConst.swift in Sources */,
